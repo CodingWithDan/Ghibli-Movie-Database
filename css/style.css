@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 3px 0px 3px 0px;
+  background-image: url("https://wallpapercave.com/dwp2x/wp2322013.png");
+  background-repeat:no-repeat;
+  background-color: rgba(27,157,207,255);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title, .director{
+  font-weight: 500;
+  color: white;
+  font-size: 2.6em;
+}
+
+.release, .run, .descrip{
+  font-weight: 400;
+  color: white;
+  font-size: 1.8em;
+}
+
+.descrip{
+  margin: 20px 75px 0px 75px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
